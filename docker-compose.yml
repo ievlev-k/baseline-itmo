@@ -1,0 +1,56 @@
+version: "3.8"
+
+services:
+  fastapi-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target:  fastapi-build
+    container_name: fastapi-baseline
+    ports:
+      - "9000:8080"
+    restart: unless-stopped
+    environment:
+      - TZ=UTC
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - ollama-service
+    networks:
+      - my_network
+    # Если нужно GPU
+    # runtime: nvidia
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+  ollama-service:
+    image: ollama/ollama
+    container_name: ollama
+    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    ports:
+       - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    restart: unless-stopped
+    networks:
+      - my_network
+
+volumes:
+  ollama:
+
+
+networks:
+  my_network:
+    driver: bridge

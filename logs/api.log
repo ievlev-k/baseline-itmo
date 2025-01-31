@@ -1,0 +1,1886 @@
+2025-01-31 14:00:28 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:00:28 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:28 | INFO | Ответь или поясни ответ на русском языке 1-3 предложенями, в ответе не должно быть китайских иероглифов!:
+  Также верни после ответа и пояснения c новой стоки ANS: номер правильного ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:00:31 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по rankings.timeshighereducation.com / world в 2015 году.
+
+ANS: 2
+2025-01-31 14:00:31 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по rankings.timeshighereducation.com / world в 2015 году.
+2025-01-31 14:00:31 | INFO | Ответ: 2
+2025-01-31 14:00:31 | INFO | Successfully processed request 3
+2025-01-31 14:00:31 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по rankings.timeshighereducation.com / world в 2015 году.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 2.446s
+2025-01-31 14:06:05 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:06:05 | INFO | Processing prediction request with id: 3
+2025-01-31 14:06:05 | INFO |  Верни после ответа и пояснения c новой стоки ANS: номер правильного ответа, если вопрос с выбором ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:06:06 | INFO | Ответ от генератора: ANS: 2
+
+Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2013 году, что относится к состоянию на 2021 год.
+2025-01-31 14:06:06 | INFO | Пояснение: 
+2025-01-31 14:06:06 | INFO | Ответ: None
+2025-01-31 14:06:06 | INFO | Successfully processed request 3
+2025-01-31 14:06:06 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 1.045s
+2025-01-31 14:07:22 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:07:22 | INFO | Processing prediction request with id: 3
+2025-01-31 14:07:22 | INFO |  Верни после ответа и пояснения c новой стоки ANS: номер правильного ответа, если вопрос с выбором ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:07:22 | INFO | Ответ от генератора: ANS: 3
+2025-01-31 14:07:22 | INFO | Пояснение: 
+2025-01-31 14:07:22 | INFO | Ответ: 3
+2025-01-31 14:07:22 | INFO | Successfully processed request 3
+2025-01-31 14:07:22 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.282s
+2025-01-31 14:07:23 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:07:23 | INFO | Processing prediction request with id: 3
+2025-01-31 14:07:23 | INFO |  Верни после ответа и пояснения c новой стоки ANS: номер правильного ответа, если вопрос с выбором ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:07:24 | INFO | Ответ от генератора: ANS: 3
+
+Пояснение: Санкт-Петербургский государственный университет (ИТМО) впервые вошёл в топ-400 мировых университетов согласно рейтингу QS World University Rankings в 2012 году. Это случилось благодаря постоянному развитию и успехам университета в различных областях академической деятельности, что и привело к такому значительному рывку в международном рейтинге.
+2025-01-31 14:07:24 | INFO | Пояснение: 
+2025-01-31 14:07:24 | INFO | Ответ: None
+2025-01-31 14:07:24 | INFO | Successfully processed request 3
+2025-01-31 14:07:24 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 1.224s
+2025-01-31 14:07:25 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:07:25 | INFO | Processing prediction request with id: 3
+2025-01-31 14:07:25 | INFO |  Верни после ответа и пояснения c новой стоки ANS: номер правильного ответа, если вопрос с выбором ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:07:26 | INFO | Ответ от генератора: ANS: 3
+
+Пояснение: В 2012 году Санкт-Петербургский национальный исследовательский университет ИТМО (Ижораский technically oriented higher educational establishment – ITMO) впервые вошёл в топ-400 рейтинга QS World University Rankings.
+2025-01-31 14:07:26 | INFO | Пояснение: 
+2025-01-31 14:07:26 | INFO | Ответ: None
+2025-01-31 14:07:26 | INFO | Successfully processed request 3
+2025-01-31 14:07:26 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.841s
+2025-01-31 14:08:13 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:08:13 | INFO | Processing prediction request with id: 3
+2025-01-31 14:08:13 | INFO |  Верни после ответа и пояснения c новой стоки ANS: номер правильного ответа, если вопрос с  выбором ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:08:15 | ERROR | Internal error processing request 3: Connection error.
+2025-01-31 14:08:15 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 1.351s
+2025-01-31 14:08:16 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:08:16 | INFO | Processing prediction request with id: 3
+2025-01-31 14:08:16 | INFO |  Верни после ответа и пояснения c новой стоки ANS: номер правильного ответа, если вопрос с  выбором ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:08:17 | ERROR | Internal error processing request 3: Connection error.
+2025-01-31 14:08:17 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 1.287s
+2025-01-31 14:08:18 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:08:18 | INFO | Processing prediction request with id: 3
+2025-01-31 14:08:18 | INFO |  Верни после ответа и пояснения c новой стоки ANS: номер правильного ответа, если вопрос с  выбором ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:08:19 | ERROR | Internal error processing request 3: Connection error.
+2025-01-31 14:08:19 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 1.403s
+2025-01-31 14:08:38 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:08:38 | INFO | Processing prediction request with id: 3
+2025-01-31 14:08:38 | INFO |  Верни после ответа и пояснения c новой стоки ANS: номер правильного ответа, если вопрос с  выбором ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:08:42 | INFO | Ответ от генератора: ANS: 3
+
+Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версиям таких рейтингов как ARWU (Shanghai Ranking), QS World University Rankings и Times Higher Education (THE) World University Rankings. Однако, если говорить о первом попадании в топ-400 по QS World University Rankings - это произошло в 2013 году.
+
+Однако из предложенных вариантов правильным будет номер 3, так как ИТМО действительно впервые вошёл в топ-400 QS World University Rankings.
+2025-01-31 14:08:42 | INFO | Пояснение: 
+2025-01-31 14:08:42 | INFO | Ответ: None
+2025-01-31 14:08:42 | INFO | Successfully processed request 3
+2025-01-31 14:08:42 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 3.826s
+2025-01-31 14:09:09 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:09:09 | INFO | Processing prediction request with id: 3
+2025-01-31 14:09:09 | INFO |  Верни после ответа и пояснения c новой стоки ANS: номер правильного ответа, если вопрос с  выбором ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:09:10 | INFO | Ответ от генератора: ANS: 2
+
+ИТМО вошёл в топ-400 рейтинга Times Higher Education (THE) World University Rankings впервые в 2011 году, что соответствует состоянию на 2021 год.
+2025-01-31 14:09:10 | INFO | Пояснение: 
+2025-01-31 14:09:10 | INFO | Ответ: None
+2025-01-31 14:09:10 | INFO | Successfully processed request 3
+2025-01-31 14:09:10 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.914s
+2025-01-31 14:10:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:10:53 | INFO | Processing prediction request with id: 3
+2025-01-31 14:10:53 | INFO | Ответь или поясни ответ на русском языке 1-3 предложенями, в ответе не должно быть китайских символов!:
+  Также верни после ответа и пояснения c новой стоки ANS: номер правильного ответа Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:10:58 | INFO | Ответ от генератора: ИТМО впервые вошло в топ-400 мировых университетов по версии THE World University Rankings (Times Higher Education) по состоянию на 2021 год.
+
+ANS: 2
+2025-01-31 14:10:58 | INFO | Пояснение: ИТМО впервые вошло в топ-400 мировых университетов по версии THE World University Rankings (Times Higher Education) по состоянию на 2021 год.
+2025-01-31 14:10:58 | INFO | Ответ: 2
+2025-01-31 14:10:58 | INFO | Successfully processed request 3
+2025-01-31 14:10:58 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошло в топ-400 мировых университетов по версии THE World University Rankings (Times Higher Education) по состоянию на 2021 год.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 4.661s
+2025-01-31 14:13:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:13:46 | INFO | Processing prediction request with id: 3
+2025-01-31 14:13:46 | INFO |  Дай пояснение от одного до трех предложений на русском языке без китайский иероглифов.
+ Также верни после ответа и пояснения c новой стоки ANS: номер правильного ответа.
+ Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:13:49 | INFO | Ответ от генератора: ИТМО (Петербургский национальный исследовательский университет информационных технологий, механики и оптики) вошло в топ-400 мировых университетов согласно рейтингу THE (Times Higher Education) в 2021 году.
+
+ANS: 2
+2025-01-31 14:13:49 | INFO | Пояснение: ИТМО (Петербургский национальный исследовательский университет информационных технологий, механики и оптики) вошло в топ-400 мировых университетов согласно рейтингу THE (Times Higher Education) в 2021 году.
+2025-01-31 14:13:49 | INFO | Ответ: 2
+2025-01-31 14:13:49 | INFO | Successfully processed request 3
+2025-01-31 14:13:49 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО (Петербургский национальный исследовательский университет информационных технологий, механики и оптики) вошло в топ-400 мировых университетов согласно рейтингу THE (Times Higher Education) в 2021 году.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 2.440s
+2025-01-31 14:15:20 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:15:20 | INFO | Processing prediction request with id: 3
+2025-01-31 14:15:20 | INFO |  Также верни после ответа и пояснения c новой стоки ANS: номер правильного ответа.
+ Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:15:21 | ERROR | Internal error processing request 3: Connection error.
+2025-01-31 14:15:21 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 1.294s
+2025-01-31 14:15:23 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:15:23 | INFO | Processing prediction request with id: 3
+2025-01-31 14:15:23 | INFO |  Также верни после ответа и пояснения c новой стоки ANS: номер правильного ответа.
+ Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:15:24 | ERROR | Internal error processing request 3: Connection error.
+2025-01-31 14:15:24 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 1.162s
+2025-01-31 14:15:32 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:15:32 | INFO | Processing prediction request with id: 3
+2025-01-31 14:15:32 | INFO |  Также верни после ответа и пояснения c новой стоки ANS: номер правильного ответа.
+ Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:15:42 | INFO | Ответ от генератора: ИТМО впервые вошло в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2019 году, и в данном контексте это соответствует данным на 2021 год. Этот международный справочник оценивает университеты по четырем основным критериям: образовательная деятельность, качество исследований, цитирование научных публикаций и интернационализация.
+
+АНС: 2
+2025-01-31 14:15:42 | INFO | Пояснение: ИТМО впервые вошло в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2019 году, и в данном контексте это соответствует данным на 2021 год. Этот международный справочник оценивает университеты по четырем основным критериям: образовательная деятельность, качество исследований, цитирование научных публикаций и интернационализация.
+
+АНС: 2
+2025-01-31 14:15:42 | INFO | Ответ: None
+2025-01-31 14:15:42 | INFO | Successfully processed request 3
+2025-01-31 14:15:42 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"ИТМО впервые вошло в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2019 году, и в данном контексте это соответствует данным на 2021 год. Этот международный справочник оценивает университеты по четырем основным критериям: образовательная деятельность, качество исследований, цитирование научных публикаций и интернационализация.\n\nАНС: 2","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 10.171s
+2025-01-31 14:20:58 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:20:58 | INFO | Processing prediction request with id: 3
+2025-01-31 14:20:58 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов. Также верни после ответа и пояснения c новой стоки в виде 'ANS: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:21:01 | INFO | Ответ от генератора: IMT first entered the top 400 of the THE World University Rankings in 2021.
+
+Explanation: Based on available information, ITMO University started appearing in the top 400 of the Times Higher Education (THE) World University Rankings from the year 2021. This doesn't mean it didn't appear in other rankings before or after this period, but specifically for the question about the first entry into the top 400 as per THE ranking, ITMO did so in 2021.
+
+ANS: 2
+2025-01-31 14:21:01 | INFO | Пояснение: IMT first entered the top 400 of the THE World University Rankings in 2021.
+
+Explanation: Based on available information, ITMO University started appearing in the top 400 of the Times Higher Education (THE) World University Rankings from the year 2021. This doesn't mean it didn't appear in other rankings before or after this period, but specifically for the question about the first entry into the top 400 as per THE ranking, ITMO did so in 2021.
+2025-01-31 14:21:01 | INFO | Ответ: 2
+2025-01-31 14:21:01 | INFO | Successfully processed request 3
+2025-01-31 14:21:01 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"IMT first entered the top 400 of the THE World University Rankings in 2021.\n\nExplanation: Based on available information, ITMO University started appearing in the top 400 of the Times Higher Education (THE) World University Rankings from the year 2021. This doesn't mean it didn't appear in other rankings before or after this period, but specifically for the question about the first entry into the top 400 as per THE ranking, ITMO did so in 2021.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 3.317s
+2025-01-31 14:23:31 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:23:31 | INFO | Processing prediction request with id: 3
+2025-01-31 14:23:31 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:23:32 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии THE Times Higher Education, который опубликовал свой рейтинг в 2013 году.
+
+Ответ: 2
+2025-01-31 14:23:32 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии THE Times Higher Education, который опубликовал свой рейтинг в 2013 году.
+2025-01-31 14:23:32 | INFO | Ответ: 2
+2025-01-31 14:23:32 | INFO | Successfully processed request 3
+2025-01-31 14:23:32 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии THE Times Higher Education, который опубликовал свой рейтинг в 2013 году.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.814s
+2025-01-31 14:26:56 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:26:56 | INFO | Processing prediction request with id: 3
+2025-01-31 14:26:56 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:26:58 | INFO | Ответ от генератора: ИТМО.first entered the top 400 of the Times Higher Education (THE) World University Rankings in 2021.
+
+Ответ: 2
+2025-01-31 14:26:58 | INFO | Пояснение: ИТМО.first entered the top 400 of the Times Higher Education (THE) World University Rankings in 2021.
+2025-01-31 14:26:58 | INFO | Ответ: 2
+2025-01-31 14:26:58 | INFO | Successfully processed request 3
+2025-01-31 14:26:58 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО.first entered the top 400 of the Times Higher Education (THE) World University Rankings in 2021.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 2.844s
+2025-01-31 14:27:03 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:27:03 | INFO | Processing prediction request with id: 3
+2025-01-31 14:27:03 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:27:03 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу Shanghai Ranking (ARWU), который был опубликован по состоянию на 2021 год.
+
+Ответ: 1
+2025-01-31 14:27:03 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу Shanghai Ranking (ARWU), который был опубликован по состоянию на 2021 год.
+2025-01-31 14:27:03 | INFO | Ответ: 1
+2025-01-31 14:27:03 | INFO | Successfully processed request 3
+2025-01-31 14:27:03 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу Shanghai Ranking (ARWU), который был опубликован по состоянию на 2021 год.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.835s
+2025-01-31 14:27:04 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:27:04 | INFO | Processing prediction request with id: 3
+2025-01-31 14:27:04 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:27:05 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) по состоянию на 2021 год.
+
+Ответ: 1
+2025-01-31 14:27:05 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) по состоянию на 2021 год.
+2025-01-31 14:27:05 | INFO | Ответ: 1
+2025-01-31 14:27:05 | INFO | Successfully processed request 3
+2025-01-31 14:27:05 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) по состоянию на 2021 год.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.626s
+2025-01-31 14:27:06 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:27:06 | INFO | Processing prediction request with id: 3
+2025-01-31 14:27:06 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:27:07 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии THE Times Higher Education,因此，请按照要求重新作答： 
+
+ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE), это произошло в 2013 году. Точное название рейтинга - Times Higher Education World University Rankings.
+
+Ответ: 2
+2025-01-31 14:27:07 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии THE Times Higher Education,因此，请按照要求重新作答： 
+
+ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE), это произошло в 2013 году. Точное название рейтинга - Times Higher Education World University Rankings.
+2025-01-31 14:27:07 | INFO | Ответ: 2
+2025-01-31 14:27:07 | INFO | Successfully processed request 3
+2025-01-31 14:27:07 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии THE Times Higher Education,因此，请按照要求重新作答： \n\nИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE), это произошло в 2013 году. Точное название рейтинга - Times Higher Education World University Rankings.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 1.258s
+2025-01-31 14:27:10 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:27:10 | INFO | Processing prediction request with id: 3
+2025-01-31 14:27:10 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:27:11 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2013 году, что и стало первым значимым прорывом для университета в этом рейтинге.
+
+Ответ: 1
+2025-01-31 14:27:11 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2013 году, что и стало первым значимым прорывом для университета в этом рейтинге.
+2025-01-31 14:27:11 | INFO | Ответ: 1
+2025-01-31 14:27:11 | INFO | Successfully processed request 3
+2025-01-31 14:27:11 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2013 году, что и стало первым значимым прорывом для университета в этом рейтинге.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 1.009s
+2025-01-31 14:27:12 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:27:12 | INFO | Processing prediction request with id: 3
+2025-01-31 14:27:12 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:27:12 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2011 году.
+
+Ответ: 2
+2025-01-31 14:27:12 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2011 году.
+2025-01-31 14:27:12 | INFO | Ответ: 2
+2025-01-31 14:27:12 | INFO | Successfully processed request 3
+2025-01-31 14:27:12 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2011 году.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.595s
+2025-01-31 14:27:13 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:27:13 | INFO | Processing prediction request with id: 3
+2025-01-31 14:27:13 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:27:13 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU, а именно Шанхайского рейтинга. Это произошло в 2015 году.  
+Ответ: 1
+2025-01-31 14:27:13 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU, а именно Шанхайского рейтинга. Это произошло в 2015 году.
+2025-01-31 14:27:13 | INFO | Ответ: 1
+2025-01-31 14:27:13 | INFO | Successfully processed request 3
+2025-01-31 14:27:13 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU, а именно Шанхайского рейтинга. Это произошло в 2015 году.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.699s
+2025-01-31 14:27:14 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:27:14 | INFO | Processing prediction request with id: 3
+2025-01-31 14:27:14 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:27:15 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) по состоянию на 2021 год.
+
+Ответ: 1
+2025-01-31 14:27:15 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) по состоянию на 2021 год.
+2025-01-31 14:27:15 | INFO | Ответ: 1
+2025-01-31 14:27:15 | INFO | Successfully processed request 3
+2025-01-31 14:27:15 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) по состоянию на 2021 год.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.594s
+2025-01-31 14:27:15 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:27:15 | INFO | Processing prediction request with id: 3
+2025-01-31 14:27:15 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский инроглифов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:27:16 | INFO | Ответ от генератора: ИТМО вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) впервые в 2012 году.
+
+Ответ: 1
+2025-01-31 14:27:16 | INFO | Пояснение: ИТМО вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) впервые в 2012 году.
+2025-01-31 14:27:16 | INFO | Ответ: 1
+2025-01-31 14:27:16 | INFO | Successfully processed request 3
+2025-01-31 14:27:16 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) впервые в 2012 году.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.556s
+2025-01-31 14:30:00 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 14:30:00 | INFO | Processing prediction request with id: 1
+2025-01-31 14:30:00 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский символов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород
+2025-01-31 14:30:02 | INFO | Ответ от генератора: Главный кампус Университета ИТМО расположен в Санкт-Петербурге.
+
+Ответ: 2
+2025-01-31 14:30:02 | INFO | Пояснение: Главный кампус Университета ИТМО расположен в Санкт-Петербурге.
+2025-01-31 14:30:02 | INFO | Ответ: 2
+2025-01-31 14:30:02 | INFO | Successfully processed request 1
+2025-01-31 14:30:02 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Главный кампус Университета ИТМО расположен в Санкт-Петербурге.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 2.470s
+2025-01-31 14:30:28 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+
+2025-01-31 14:30:28 | INFO | Processing prediction request with id: 2
+2025-01-31 14:30:28 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский символов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?
+1. 2007
+2. 2009
+3. 2011
+4. 2015
+2025-01-31 14:30:29 | INFO | Ответ от генератора: Университет ИТМО был включен в число Национальных исследовательских университетов России в 2011 году. Это решение было принято после конкурса и подтверждено Министерством образования и науки Российской Федерации.
+
+Ответ: 3
+2025-01-31 14:30:29 | INFO | Пояснение: Университет ИТМО был включен в число Национальных исследовательских университетов России в 2011 году. Это решение было принято после конкурса и подтверждено Министерством образования и науки Российской Федерации.
+2025-01-31 14:30:29 | INFO | Ответ: 3
+2025-01-31 14:30:29 | INFO | Successfully processed request 2
+2025-01-31 14:30:29 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":3,"reasoning":"Университет ИТМО был включен в число Национальных исследовательских университетов России в 2011 году. Это решение было принято после конкурса и подтверждено Министерством образования и науки Российской Федерации.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 1.008s
+2025-01-31 14:31:26 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+
+2025-01-31 14:31:26 | INFO | Processing prediction request with id: 2
+2025-01-31 14:31:26 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский символов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?
+1. 2007
+2. 2009
+3. 2011
+4. 2015
+2025-01-31 14:31:27 | INFO | Ответ от генератора: Университет ИТМО был причислен к числу Национальных исследовательских университетов России в 2011 году. Это решение было принято после проведенной экспертизы и оценки деятельности университета.
+
+Ответ: 3
+2025-01-31 14:31:27 | INFO | Пояснение: Университет ИТМО был причислен к числу Национальных исследовательских университетов России в 2011 году. Это решение было принято после проведенной экспертизы и оценки деятельности университета.
+2025-01-31 14:31:27 | INFO | Ответ: 3
+2025-01-31 14:31:27 | INFO | Successfully processed request 2
+2025-01-31 14:31:27 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":3,"reasoning":"Университет ИТМО был причислен к числу Национальных исследовательских университетов России в 2011 году. Это решение было принято после проведенной экспертизы и оценки деятельности университета.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.963s
+2025-01-31 14:31:27 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+
+2025-01-31 14:31:27 | INFO | Processing prediction request with id: 2
+2025-01-31 14:31:27 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский символов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?
+1. 2007
+2. 2009
+3. 2011
+4. 2015
+2025-01-31 14:31:28 | INFO | Ответ от генератора: Университет ИТМО был включен в число Национальных исследовательских университетов России в 2011 году. Это решение было принято федеральным правительством для поддержки ключевых российских образовательных и научных учреждений.
+
+Ответ: 3
+2025-01-31 14:31:28 | INFO | Пояснение: Университет ИТМО был включен в число Национальных исследовательских университетов России в 2011 году. Это решение было принято федеральным правительством для поддержки ключевых российских образовательных и научных учреждений.
+2025-01-31 14:31:28 | INFO | Ответ: 3
+2025-01-31 14:31:28 | INFO | Successfully processed request 2
+2025-01-31 14:31:28 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":3,"reasoning":"Университет ИТМО был включен в число Национальных исследовательских университетов России в 2011 году. Это решение было принято федеральным правительством для поддержки ключевых российских образовательных и научных учреждений.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.885s
+2025-01-31 14:32:40 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+
+2025-01-31 14:32:40 | INFO | Processing prediction request with id: 2
+2025-01-31 14:32:40 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский символов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?
+1. 2007
+2. 2009
+3. 2011
+4. 2015
+2025-01-31 14:32:47 | INFO | Ответ от генератора: В 2011 году Санкт-Петербургский национальный университет информационных технологий, механики и[opt]ордена святого апостола Андрея Первозванного (ныне Университет ИТМО) был включён в число Федеральных (впоследствии Национальных исследовательских) университетов России. Это статус, который предоставляет ряд преимуществ и обязательств по укреплению научно-исследовательской деятельности.
+
+Ответ: 3
+2025-01-31 14:32:47 | INFO | Пояснение: В 2011 году Санкт-Петербургский национальный университет информационных технологий, механики и[opt]ордена святого апостола Андрея Первозванного (ныне Университет ИТМО) был включён в число Федеральных (впоследствии Национальных исследовательских) университетов России. Это статус, который предоставляет ряд преимуществ и обязательств по укреплению научно-исследовательской деятельности.
+2025-01-31 14:32:47 | INFO | Ответ: 3
+2025-01-31 14:32:47 | INFO | Successfully processed request 2
+2025-01-31 14:32:47 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":3,"reasoning":"В 2011 году Санкт-Петербургский национальный университет информационных технологий, механики и[opt]ордена святого апостола Андрея Первозванного (ныне Университет ИТМО) был включён в число Федеральных (впоследствии Национальных исследовательских) университетов России. Это статус, который предоставляет ряд преимуществ и обязательств по укреплению научно-исследовательской деятельности.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 6.958s
+2025-01-31 14:33:06 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:33:06 | INFO | Processing prediction request with id: 3
+2025-01-31 14:33:06 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский символов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:33:10 | INFO | Ответ от генератора: ИТМО впервые вошло в топ-400 мировых университетов по версии рейтинга THE (Times Higher Education) в 2019 году, что близко к отметке 2021 года. Несмотря на то что вопрос задан относительно 2021 года, фактически ТЭК начали классифицировать ИТМО гораздо раньше.
+
+Ответ: 2
+2025-01-31 14:33:10 | INFO | Пояснение: ИТМО впервые вошло в топ-400 мировых университетов по версии рейтинга THE (Times Higher Education) в 2019 году, что близко к отметке 2021 года. Несмотря на то что вопрос задан относительно 2021 года, фактически ТЭК начали классифицировать ИТМО гораздо раньше.
+2025-01-31 14:33:10 | INFO | Ответ: 2
+2025-01-31 14:33:10 | INFO | Successfully processed request 3
+2025-01-31 14:33:10 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошло в топ-400 мировых университетов по версии рейтинга THE (Times Higher Education) в 2019 году, что близко к отметке 2021 года. Несмотря на то что вопрос задан относительно 2021 года, фактически ТЭК начали классифицировать ИТМО гораздо раньше.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 3.651s
+2025-01-31 14:33:34 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:33:34 | INFO | Processing prediction request with id: 3
+2025-01-31 14:33:34 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский символов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:33:38 | INFO | Ответ от генератора: ИТМО впервые вошло в топ-400 мировых университетов по версии THE World University Rankings в 2019 году, за год до указанного вопросом 2021 года. Этот рейтинг оценивает университеты по нескольким ключевым критериям, таким как преподавание, исследования, цитирование научных публикаций, международное сотрудничество и будущие перспективы университета.
+
+Ответ: 2
+2025-01-31 14:33:38 | INFO | Пояснение: ИТМО впервые вошло в топ-400 мировых университетов по версии THE World University Rankings в 2019 году, за год до указанного вопросом 2021 года. Этот рейтинг оценивает университеты по нескольким ключевым критериям, таким как преподавание, исследования, цитирование научных публикаций, международное сотрудничество и будущие перспективы университета.
+2025-01-31 14:33:38 | INFO | Ответ: 2
+2025-01-31 14:33:38 | INFO | Successfully processed request 3
+2025-01-31 14:33:38 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошло в топ-400 мировых университетов по версии THE World University Rankings в 2019 году, за год до указанного вопросом 2021 года. Этот рейтинг оценивает университеты по нескольким ключевым критериям, таким как преподавание, исследования, цитирование научных публикаций, международное сотрудничество и будущие перспективы университета.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 3.943s
+2025-01-31 14:33:43 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:33:43 | INFO | Processing prediction request with id: 3
+2025-01-31 14:33:43 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. В ответе не должно быть китайский символов.  Ответь на русской языке.  Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities
+2025-01-31 14:33:45 | INFO | Ответ от генератора: ИТМО впервые вошло в топ-400 мировых университетов согласно рейтингу Times Higher Education (THE) World University Rankings по состоянию на 2021 год. Этот академический рейтинг университетов анализирует различные индикаторы, такие как качество научной работы и образовательные стандарты.
+Ответ: 2
+2025-01-31 14:33:45 | INFO | Пояснение: ИТМО впервые вошло в топ-400 мировых университетов согласно рейтингу Times Higher Education (THE) World University Rankings по состоянию на 2021 год. Этот академический рейтинг университетов анализирует различные индикаторы, такие как качество научной работы и образовательные стандарты.
+2025-01-31 14:33:45 | INFO | Ответ: 2
+2025-01-31 14:33:45 | INFO | Successfully processed request 3
+2025-01-31 14:33:45 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошло в топ-400 мировых университетов согласно рейтингу Times Higher Education (THE) World University Rankings по состоянию на 2021 год. Этот академический рейтинг университетов анализирует различные индикаторы, такие как качество научной работы и образовательные стандарты.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 2.691s
+2025-01-31 14:37:22 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:37:22 | INFO | Processing prediction request with id: 3
+2025-01-31 14:37:22 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 14:37:23 | ERROR | Internal error processing request 3: Connection error.
+2025-01-31 14:37:23 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 1.348s
+2025-01-31 14:37:29 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:37:29 | INFO | Processing prediction request with id: 3
+2025-01-31 14:37:29 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 14:37:32 | INFO | Ответ от генератора: Впервые ИТМО вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2013 году.
+
+Ответ: 1
+2025-01-31 14:37:32 | INFO | Пояснение: Впервые ИТМО вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2013 году.
+2025-01-31 14:37:32 | INFO | Ответ: 1
+2025-01-31 14:37:32 | INFO | Successfully processed request 3
+2025-01-31 14:37:32 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Впервые ИТМО вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2013 году.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 2.484s
+2025-01-31 14:37:38 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 14:37:38 | INFO | Processing prediction request with id: 1
+2025-01-31 14:37:38 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 14:37:38 | INFO | Ответ от генератора: Полностью верный ответ на этот вопрос — 2. Санкт-Петербург.
+
+Ответ: 2
+2025-01-31 14:37:38 | INFO | Пояснение: Полностью верный ответ на этот вопрос — 2. Санкт-Петербург.
+2025-01-31 14:37:38 | INFO | Ответ: 2
+2025-01-31 14:37:38 | INFO | Successfully processed request 1
+2025-01-31 14:37:38 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Полностью верный ответ на этот вопрос — 2. Санкт-Петербург.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.461s
+2025-01-31 14:37:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+
+2025-01-31 14:37:46 | INFO | Processing prediction request with id: 2
+2025-01-31 14:37:46 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?
+1. 2007
+2. 2009
+3. 2011
+4. 2015 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 14:37:47 | INFO | Ответ от генератора: Университет ИТМО был включён в число Национальных исследовательских университетов России в 2011 году. Это произошло на VI расширенном заседании Совета министров образования и науки Российской Федерации.
+
+Ответ: 3
+2025-01-31 14:37:47 | INFO | Пояснение: Университет ИТМО был включён в число Национальных исследовательских университетов России в 2011 году. Это произошло на VI расширенном заседании Совета министров образования и науки Российской Федерации.
+2025-01-31 14:37:47 | INFO | Ответ: 3
+2025-01-31 14:37:47 | INFO | Successfully processed request 2
+2025-01-31 14:37:47 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":3,"reasoning":"Университет ИТМО был включён в число Национальных исследовательских университетов России в 2011 году. Это произошло на VI расширенном заседании Совета министров образования и науки Российской Федерации.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 1.135s
+2025-01-31 14:37:56 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+
+2025-01-31 14:37:56 | INFO | Processing prediction request with id: 2
+2025-01-31 14:37:56 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?
+1. 2007
+2. 2009
+3. 2011
+4. 2015 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 14:37:57 | INFO | Ответ от генератора: Университет ИТМО был включён в число Национальных исследовательских университетов России в 2011 году. Этот факт относится к третьему этапу создания НИУ, когда были допущены ещё семь университетов.
+
+Ответ: 3
+2025-01-31 14:37:57 | INFO | Пояснение: Университет ИТМО был включён в число Национальных исследовательских университетов России в 2011 году. Этот факт относится к третьему этапу создания НИУ, когда были допущены ещё семь университетов.
+2025-01-31 14:37:57 | INFO | Ответ: 3
+2025-01-31 14:37:57 | INFO | Successfully processed request 2
+2025-01-31 14:37:57 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":3,"reasoning":"Университет ИТМО был включён в число Национальных исследовательских университетов России в 2011 году. Этот факт относится к третьему этапу создания НИУ, когда были допущены ещё семь университетов.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 1.104s
+2025-01-31 14:39:52 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 14:39:52 | INFO | Processing prediction request with id: 3
+2025-01-31 14:39:52 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 14:39:53 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2016 году.
+
+Ответ: 2
+2025-01-31 14:39:53 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2016 году.
+2025-01-31 14:39:53 | INFO | Ответ: 2
+2025-01-31 14:39:53 | INFO | Successfully processed request 3
+2025-01-31 14:39:53 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2016 году.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.754s
+2025-01-31 15:31:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 15:31:53 | INFO | Processing prediction request with id: 3
+2025-01-31 15:31:53 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 15:31:56 | INFO | Ответ от генератора: Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2012 году.\n\nОтвет: 1', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None))
+2025-01-31 15:31:56 | INFO | Ответ от генератора: Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2012 году.\n\nОтвет: 1', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None))
+2025-01-31 15:31:56 | ERROR | Internal error processing request 3: 'Choice' object has no attribute 'strip'
+2025-01-31 15:31:56 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 2.780s
+2025-01-31 15:31:58 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 15:31:58 | INFO | Processing prediction request with id: 3
+2025-01-31 15:31:58 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 15:31:59 | INFO | Ответ от генератора: Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Итоговый рейтинг Times Higher Education (THE) World University Rankings впервые поднял ИТМО в топ-400 мировых университетов в 2018 году.\n\nОтвет: 2', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None))
+2025-01-31 15:31:59 | INFO | Ответ от генератора: Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Итоговый рейтинг Times Higher Education (THE) World University Rankings впервые поднял ИТМО в топ-400 мировых университетов в 2018 году.\n\nОтвет: 2', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None))
+2025-01-31 15:31:59 | ERROR | Internal error processing request 3: 'Choice' object has no attribute 'strip'
+2025-01-31 15:31:59 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.606s
+2025-01-31 15:33:16 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 15:33:16 | INFO | Processing prediction request with id: 3
+2025-01-31 15:33:16 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 15:33:17 | INFO | Ответ от генератора: Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='ИТМО впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году.\n\nОтвет: 3', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None))
+2025-01-31 15:33:17 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году.
+
+Ответ: 3
+2025-01-31 15:33:17 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году.
+2025-01-31 15:33:17 | INFO | Ответ: 3
+2025-01-31 15:33:17 | INFO | Successfully processed request 3
+2025-01-31 15:33:17 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.757s
+2025-01-31 16:14:05 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Найди ответ на вопрос. Из контекста. В 2020 году конкуренция среди участников рейтинга усилилась ― в поле зрения Times Higher Education World University Ranking попали 1527 вузов — на 130 больше, чем в прошлом году. Расширилась и представленность российских вузов. Среди новичков рейтинга ― девять российских университетов, теперь в рейтинге их представлено 48 (в прошлом ― 39) Позиция университетов в рейтинге определяется на основании пяти основных параметров ― качество образования (Teaching) и научно-исследовательской деятельности (Research), включая репутационную составляющую, уровень цитируемости (Citations), интернационализация (International Outlook) и привлечение средств от промышленности (Industry Income).Данные для составления рейтинга собираются из трех источников: статистическая информация от университетов, библиометрическая база Scopus и опросы академических экспертов.В этом году Университет ИТМО показал уже  результаты в треке Industry Income — получение доходов от промышленности. Если в прошлом году этот показатель THE оценили в 84,6 балла, то в этом уже в 90,1 балл, что позволило ИТМО занять 75 место в мире (против 86 в прошлом году). Среди других российских вузов похожие показатели у МГУ, МИФИ и МФТИ.",
+  "id": 3
+}
+
+2025-01-31 16:14:05 | INFO | Processing prediction request with id: 3
+2025-01-31 16:14:05 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: Найди ответ на вопрос. Из контекста. В 2020 году конкуренция среди участников рейтинга усилилась ― в поле зрения Times Higher Education World University Ranking попали 1527 вузов — на 130 больше, чем в прошлом году. Расширилась и представленность российских вузов. Среди новичков рейтинга ― девять российских университетов, теперь в рейтинге их представлено 48 (в прошлом ― 39) Позиция университетов в рейтинге определяется на основании пяти основных параметров ― качество образования (Teaching) и научно-исследовательской деятельности (Research), включая репутационную составляющую, уровень цитируемости (Citations), интернационализация (International Outlook) и привлечение средств от промышленности (Industry Income).Данные для составления рейтинга собираются из трех источников: статистическая информация от университетов, библиометрическая база Scopus и опросы академических экспертов.В этом году Университет ИТМО показал уже  результаты в треке Industry Income — получение доходов от промышленности. Если в прошлом году этот показатель THE оценили в 84,6 балла, то в этом уже в 90,1 балл, что позволило ИТМО занять 75 место в мире (против 86 в прошлом году). Среди других российских вузов похожие показатели у МГУ, МИФИ и МФТИ. 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 16:14:08 | INFO | Ответ от генератора: Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Конкуренция среди участников рейтинга Times Higher Education World University Ranking в 2020 году усилилась, в него вошло 1527 университетов против 1397 в 2019 году. Это связано с расширением охвата российских участников.\n\nОтвет: 1', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None))
+2025-01-31 16:14:08 | INFO | Ответ от генератора: Конкуренция среди участников рейтинга Times Higher Education World University Ranking в 2020 году усилилась, в него вошло 1527 университетов против 1397 в 2019 году. Это связано с расширением охвата российских участников.
+
+Ответ: 1
+2025-01-31 16:14:08 | INFO | Пояснение: Конкуренция среди участников рейтинга Times Higher Education World University Ranking в 2020 году усилилась, в него вошло 1527 университетов против 1397 в 2019 году. Это связано с расширением охвата российских участников.
+2025-01-31 16:14:08 | INFO | Ответ: None
+2025-01-31 16:14:09 | INFO | Successfully processed request 3
+2025-01-31 16:14:09 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"Конкуренция среди участников рейтинга Times Higher Education World University Ranking в 2020 году усилилась, в него вошло 1527 университетов против 1397 в 2019 году. Это связано с расширением охвата российских участников.","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 3.961s
+2025-01-31 16:14:43 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities. Найди ответ на вопрос. Из контекста. В 2020 году конкуренция среди участников рейтинга усилилась ― в поле зрения Times Higher Education World University Ranking попали 1527 вузов — на 130 больше, чем в прошлом году. Расширилась и представленность российских вузов. Среди новичков рейтинга ― девять российских университетов, теперь в рейтинге их представлено 48 (в прошлом ― 39) Позиция университетов в рейтинге определяется на основании пяти основных параметров ― качество образования (Teaching) и научно-исследовательской деятельности (Research), включая репутационную составляющую, уровень цитируемости (Citations), интернационализация (International Outlook) и привлечение средств от промышленности (Industry Income).Данные для составления рейтинга собираются из трех источников: статистическая информация от университетов, библиометрическая база Scopus и опросы академических экспертов.В этом году Университет ИТМО показал уже  результаты в треке Industry Income — получение доходов от промышленности. Если в прошлом году этот показатель THE оценили в 84,6 балла, то в этом уже в 90,1 балл, что позволило ИТМО занять 75 место в мире (против 86 в прошлом году). Среди других российских вузов похожие показатели у МГУ, МИФИ и МФТИ.",
+  "id": 3
+}
+
+2025-01-31 16:14:43 | INFO | Processing prediction request with id: 3
+2025-01-31 16:14:43 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities. Найди ответ на вопрос. Из контекста. В 2020 году конкуренция среди участников рейтинга усилилась ― в поле зрения Times Higher Education World University Ranking попали 1527 вузов — на 130 больше, чем в прошлом году. Расширилась и представленность российских вузов. Среди новичков рейтинга ― девять российских университетов, теперь в рейтинге их представлено 48 (в прошлом ― 39) Позиция университетов в рейтинге определяется на основании пяти основных параметров ― качество образования (Teaching) и научно-исследовательской деятельности (Research), включая репутационную составляющую, уровень цитируемости (Citations), интернационализация (International Outlook) и привлечение средств от промышленности (Industry Income).Данные для составления рейтинга собираются из трех источников: статистическая информация от университетов, библиометрическая база Scopus и опросы академических экспертов.В этом году Университет ИТМО показал уже  результаты в треке Industry Income — получение доходов от промышленности. Если в прошлом году этот показатель THE оценили в 84,6 балла, то в этом уже в 90,1 балл, что позволило ИТМО занять 75 место в мире (против 86 в прошлом году). Среди других российских вузов похожие показатели у МГУ, МИФИ и МФТИ. 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 16:14:44 | INFO | Ответ от генератора: Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings.\n\nОтвет: 2.', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None))
+2025-01-31 16:14:44 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings.
+
+Ответ: 2.
+2025-01-31 16:14:44 | ERROR | Validation error for request 3: invalid literal for int() with base 10: '2.'
+2025-01-31 16:14:44 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: '2.'"}
+Duration: 0.790s
+2025-01-31 16:57:23 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 16:57:23 | INFO | Processing prediction request with id: 3
+2025-01-31 16:57:23 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 16:57:27 | INFO | Ответ от генератора: Итоговый рейтинг ARWU впервые включил ИТМО в топ-400 мировых университетов по состоянию на 2021 год.
+
+Ответ: 1
+2025-01-31 16:57:27 | INFO | Пояснение: Итоговый рейтинг ARWU впервые включил ИТМО в топ-400 мировых университетов по состоянию на 2021 год.
+2025-01-31 16:57:27 | INFO | Ответ: 1
+2025-01-31 16:57:28 | INFO | Successfully processed request 3
+2025-01-31 16:57:28 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Итоговый рейтинг ARWU впервые включил ИТМО в топ-400 мировых университетов по состоянию на 2021 год.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 4.629s
+2025-01-31 16:58:32 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Ученые ИТМО разработали сенсоры на основе наночастиц золота",
+  "id": 3
+}
+
+2025-01-31 16:58:32 | INFO | Processing prediction request with id: 3
+2025-01-31 16:58:32 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: Ученые ИТМО разработали сенсоры на основе наночастиц золота 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 16:58:33 | INFO | Ответ от генератора: Ученые ИТМО действительно разработали сенсоры на основе наночастиц золота для различных приложений, например, в медицине и экологии. Такие сенсоры позволяют более точно определять концентрации веществ в среде. Это新技术已经翻译成了相应的内容。这里我们直接按照要求调整为：
+
+Ученые ИТМО разработали сенсоры на основе наночастиц золота для различных приложений, например, в медицине и экологии.这样的解释说明了这一技术的应用领域。
+
+答: 1
+2025-01-31 16:58:33 | INFO | Пояснение: Ученые ИТМО действительно разработали сенсоры на основе наночастиц золота для различных приложений, например, в медицине и экологии. Такие сенсоры позволяют более точно определять концентрации веществ в среде. Это新技术已经翻译成了相应的内容。这里我们直接按照要求调整为：
+
+Ученые ИТМО разработали сенсоры на основе наночастиц золота для различных приложений, например, в медицине и экологии.这样的解释说明了这一技术的应用领域。
+
+答: 1
+2025-01-31 16:58:33 | INFO | Ответ: None
+2025-01-31 16:58:34 | INFO | Successfully processed request 3
+2025-01-31 16:58:34 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"Ученые ИТМО действительно разработали сенсоры на основе наночастиц золота для различных приложений, например, в медицине и экологии. Такие сенсоры позволяют более точно определять концентрации веществ в среде. Это新技术已经翻译成了相应的内容。这里我们直接按照要求调整为：\n\nУченые ИТМО разработали сенсоры на основе наночастиц золота для различных приложений, например, в медицине и экологии.这样的解释说明了这一技术的应用领域。\n\n答: 1","sources":["https://news.itmo.ru/ru/news/14135/","https://itmo.ru/news","https://news.itmo.ru/ru/science/"]}
+Duration: 2.392s
+2025-01-31 17:02:42 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Ученые ИТМО разработали сенсоры на основе наночастиц золота",
+  "id": 3
+}
+
+2025-01-31 17:02:42 | INFO | Processing prediction request with id: 3
+2025-01-31 17:02:42 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: Ученые ИТМО разработали сенсоры на основе наночастиц золота 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:02:43 | INFO | Ответ от генератора: Исходя из информации в вопросе, ученые ИТМО разработали сенсоры, используя наночастицы золота как основной компонент. Это свидетельствует о том, что правильный ответ связан с использованием золотых наночастиц в исследовательской работе.
+
+Ответ: 2
+2025-01-31 17:02:43 | INFO | Пояснение: Исходя из информации в вопросе, ученые ИТМО разработали сенсоры, используя наночастицы золота как основной компонент. Это свидетельствует о том, что правильный ответ связан с использованием золотых наночастиц в исследовательской работе.
+2025-01-31 17:02:43 | INFO | Ответ: None
+2025-01-31 17:02:44 | INFO | Successfully processed request 3
+2025-01-31 17:02:44 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"Исходя из информации в вопросе, ученые ИТМО разработали сенсоры, используя наночастицы золота как основной компонент. Это свидетельствует о том, что правильный ответ связан с использованием золотых наночастиц в исследовательской работе.","sources":["https://news.itmo.ru/ru/news/14135/"]}
+Duration: 1.892s
+2025-01-31 17:03:07 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:03:07 | INFO | Processing prediction request with id: 3
+2025-01-31 17:03:07 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:03:08 | INFO | Ответ от генератора: Исследуя данные по состоянию на 2021 год, ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking). Поэтому правильный ответ:
+
+Ответ: 1
+2025-01-31 17:03:08 | INFO | Пояснение: Исследуя данные по состоянию на 2021 год, ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking). Поэтому правильный ответ:
+2025-01-31 17:03:08 | INFO | Ответ: 1
+2025-01-31 17:03:09 | INFO | Successfully processed request 3
+2025-01-31 17:03:09 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Исследуя данные по состоянию на 2021 год, ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking). Поэтому правильный ответ:","sources":["https://news.itmo.ru/ru/university_live/ratings/news/10169/"]}
+Duration: 1.639s
+2025-01-31 17:03:19 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:03:19 | INFO | Processing prediction request with id: 3
+2025-01-31 17:03:19 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:03:20 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2011 году.
+
+Ответ: 1
+2025-01-31 17:03:20 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2011 году.
+2025-01-31 17:03:20 | INFO | Ответ: 1
+2025-01-31 17:03:21 | INFO | Successfully processed request 3
+2025-01-31 17:03:21 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) в 2011 году.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 1.418s
+2025-01-31 17:03:27 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:03:27 | INFO | Processing prediction request with id: 3
+2025-01-31 17:03:27 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:03:28 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу QS World University Rankings в 2011 году. Это произошло благодаря улучшению результатов в области академической репутации, что стало значимой причиной для повышения позиций университета.
+
+Ответ: 3
+2025-01-31 17:03:28 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу QS World University Rankings в 2011 году. Это произошло благодаря улучшению результатов в области академической репутации, что стало значимой причиной для повышения позиций университета.
+2025-01-31 17:03:28 | INFO | Ответ: 3
+2025-01-31 17:03:28 | INFO | Successfully processed request 3
+2025-01-31 17:03:28 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу QS World University Rankings в 2011 году. Это произошло благодаря улучшению результатов в области академической репутации, что стало значимой причиной для повышения позиций университета.","sources":["https://news.itmo.ru/ru/university_live/ratings/news/10169/"]}
+Duration: 1.574s
+2025-01-31 17:03:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 17:03:46 | INFO | Processing prediction request with id: 1
+2025-01-31 17:03:46 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:03:47 | INFO | Ответ от генератора: Университет ИТМО находится в Санкт-Петербурге.
+
+Пояснение: Главный кампус Санкт-Петербургского государственного университета информационных технологий, механики и оптики (ИТМО) расположен в санкт-петербургском районе Ленинское.
+
+Ответ: 2
+2025-01-31 17:03:47 | INFO | Пояснение: Университет ИТМО находится в Санкт-Петербурге.
+
+Пояснение: Главный кампус Санкт-Петербургского государственного университета информационных технологий, механики и оптики (ИТМО) расположен в санкт-петербургском районе Ленинское.
+2025-01-31 17:03:47 | INFO | Ответ: 2
+2025-01-31 17:03:48 | INFO | Successfully processed request 1
+2025-01-31 17:03:48 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Университет ИТМО находится в Санкт-Петербурге.\n\nПояснение: Главный кампус Санкт-Петербургского государственного университета информационных технологий, механики и оптики (ИТМО) расположен в санкт-петербургском районе Ленинское.","sources":["https://news.itmo.ru/ru/news/9415/"]}
+Duration: 1.598s
+2025-01-31 17:10:28 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 17:10:28 | INFO | Processing prediction request with id: 1
+2025-01-31 17:10:28 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:10:31 | INFO | Ответ от генератора: Правильный ответ: 2. Санкт-Петербург
+
+Пояснение: Главный кампус Университета ИТМО находится в Санкт-Петербурге, который является основным городом университета и местом его создания. Ответ: 2. Санкт-Петербург
+2025-01-31 17:10:31 | INFO | Пояснение: Правильный ответ: 2. Санкт-Петербург
+
+Пояснение: Главный кампус Университета ИТМО находится в Санкт-Петербурге, который является основным городом университета и местом его создания.
+2025-01-31 17:10:31 | INFO | Ответ: None
+2025-01-31 17:10:32 | INFO | Successfully processed request 1
+2025-01-31 17:10:32 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":null,"reasoning":"Правильный ответ: 2. Санкт-Петербург\n\nПояснение: Главный кампус Университета ИТМО находится в Санкт-Петербурге, который является основным городом университета и местом его создания.","sources":["https://news.itmo.ru/ru/news/9415/"]}
+Duration: 4.018s
+2025-01-31 17:10:41 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 17:10:41 | INFO | Processing prediction request with id: 1
+2025-01-31 17:10:41 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:10:42 | INFO | Ответ от генератора: Главный кампус Университета ИТМО находится в Санкт-Петербурге.
+
+Ответ: 2
+2025-01-31 17:10:42 | INFO | Пояснение: Главный кампус Университета ИТМО находится в Санкт-Петербурге.
+2025-01-31 17:10:42 | INFO | Ответ: 2
+2025-01-31 17:10:43 | INFO | Successfully processed request 1
+2025-01-31 17:10:43 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://news.itmo.ru/ru/news/9415/"]}
+Duration: 1.663s
+2025-01-31 17:10:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 17:10:45 | INFO | Processing prediction request with id: 1
+2025-01-31 17:10:45 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:10:45 | INFO | Ответ от генератора: Ответ: 2
+
+Пояснение: Главный кампус Университета ИТМО находится в Санкт-Петербурге, который также известен как Петровskiy prospekt по причине расположения университета в этом городе.
+2025-01-31 17:10:45 | INFO | Пояснение: 
+2025-01-31 17:10:45 | INFO | Ответ: None
+2025-01-31 17:10:46 | INFO | Successfully processed request 1
+2025-01-31 17:10:46 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":null,"reasoning":"","sources":["https://news.itmo.ru/ru/news/9415/"]}
+Duration: 1.859s
+2025-01-31 17:10:48 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 17:10:48 | INFO | Processing prediction request with id: 1
+2025-01-31 17:10:48 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:10:49 | INFO | Ответ от генератора: Чемпионат мира по футболу в России проходил в нескольких городах, но главный кампус Университета ИТМО находится в Санкт-Петербурге.
+
+Ответ: 2
+2025-01-31 17:10:49 | INFO | Пояснение: Чемпионат мира по футболу в России проходил в нескольких городах, но главный кампус Университета ИТМО находится в Санкт-Петербурге.
+2025-01-31 17:10:49 | INFO | Ответ: 2
+2025-01-31 17:10:50 | INFO | Successfully processed request 1
+2025-01-31 17:10:50 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Чемпионат мира по футболу в России проходил в нескольких городах, но главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://news.itmo.ru/ru/news/9415/"]}
+Duration: 1.712s
+2025-01-31 17:11:08 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 17:11:08 | INFO | Processing prediction request with id: 1
+2025-01-31 17:11:08 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:11:12 | INFO | Ответ от генератора: Ответ: 2
+
+Пояснение: Главный кампус Университета ИТМО находится в Санкт-Петербурге. Этот город известен своей инженерной и technological привлекательностью, что соответствует унимеситирускому названию "ИТМО". Ответ: 2
+2025-01-31 17:11:12 | INFO | Пояснение: 
+2025-01-31 17:11:12 | INFO | Ответ: 2
+2025-01-31 17:11:13 | INFO | Successfully processed request 1
+2025-01-31 17:11:13 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"","sources":["https://news.itmo.ru/ru/news/9415/"]}
+Duration: 4.970s
+2025-01-31 17:11:25 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:11:25 | INFO | Processing prediction request with id: 3
+2025-01-31 17:11:25 | INFO |  Ответь на вопрос и дай пояснение 1-3 предложениями. Также верни после ответа и пояснения c новой стоки в виде 'Ответ: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:11:25 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов рейтинге QS World University Rankings в 2011 году.  
+Ответ: 3
+2025-01-31 17:11:25 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов рейтинге QS World University Rankings в 2011 году.
+2025-01-31 17:11:25 | INFO | Ответ: 3
+2025-01-31 17:11:26 | INFO | Successfully processed request 3
+2025-01-31 17:11:26 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов рейтинге QS World University Rankings в 2011 году.","sources":["https://news.itmo.ru/ru/university_live/ratings/news/10169/"]}
+Duration: 1.321s
+2025-01-31 17:17:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:17:53 | INFO | Processing prediction request with id: 3
+2025-01-31 17:17:53 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'Ответ: номер правильного ответа из вопроса'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:17:58 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) в 2011 году. Этот рейтинг оценивает университеты на основе пяти основных критериев: научное влияние, преподаватели-научные лауреаты, преподавательская элита, промышленность и образование и международное сотрудничество.  
+
+Ответ: 1
+2025-01-31 17:17:58 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) в 2011 году. Этот рейтинг оценивает университеты на основе пяти основных критериев: научное влияние, преподаватели-научные лауреаты, преподавательская элита, промышленность и образование и международное сотрудничество.
+2025-01-31 17:17:58 | INFO | Ответ: 1
+2025-01-31 17:17:58 | INFO | Successfully processed request 3
+2025-01-31 17:17:58 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) в 2011 году. Этот рейтинг оценивает университеты на основе пяти основных критериев: научное влияние, преподаватели-научные лауреаты, преподавательская элита, промышленность и образование и международное сотрудничество.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 4.670s
+2025-01-31 17:18:02 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:18:02 | INFO | Processing prediction request with id: 3
+2025-01-31 17:18:02 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'Ответ: номер правильного ответа из вопроса'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:18:03 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) в 2011 году. Этот рейтинг оцениваетUniversities из различных стран и регионов всего мира.
+
+Ответ: 1
+2025-01-31 17:18:03 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) в 2011 году. Этот рейтинг оцениваетUniversities из различных стран и регионов всего мира.
+2025-01-31 17:18:03 | INFO | Ответ: 1
+2025-01-31 17:18:04 | INFO | Successfully processed request 3
+2025-01-31 17:18:04 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по рейтингу ARWU (Shanghai Ranking) в 2011 году. Этот рейтинг оцениваетUniversities из различных стран и регионов всего мира.","sources":["https://news.itmo.ru/ru/university_live/ratings/news/10169/","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf","https://news.itmo.ru/ru/university_live/ratings/news/10389/"]}
+Duration: 2.202s
+2025-01-31 17:18:05 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:18:05 | INFO | Processing prediction request with id: 3
+2025-01-31 17:18:05 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'Ответ: номер правильного ответа из вопроса'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:18:06 | INFO | Ответ от генератора: ИТМО впервые вошла в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking) в 2011 году, что составляет его первое занятие среди топ-400.
+
+Ответ: 1
+2025-01-31 17:18:06 | INFO | Пояснение: ИТМО впервые вошла в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking) в 2011 году, что составляет его первое занятие среди топ-400.
+2025-01-31 17:18:06 | INFO | Ответ: 1
+2025-01-31 17:18:07 | INFO | Successfully processed request 3
+2025-01-31 17:18:07 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошла в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking) в 2011 году, что составляет его первое занятие среди топ-400.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 1.385s
+2025-01-31 17:18:12 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:18:12 | INFO | Processing prediction request with id: 3
+2025-01-31 17:18:12 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'Ответ: номер правильного ответа из вопроса'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:18:13 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking) по состоянию на 2021 год. Этот рейтинг оценивает высшие учебные заведения по различным критериям, таким как научное影响已结束，继续您的问题或提供更多信息吧。根据前三句话的分析，正确答案是：
+
+```
+Ответ: 1
+```
+2025-01-31 17:18:13 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking) по состоянию на 2021 год. Этот рейтинг оценивает высшие учебные заведения по различным критериям, таким как научное影响已结束，继续您的问题或提供更多信息吧。根据前三句话的分析，正确答案是：
+
+```
+2025-01-31 17:18:13 | INFO | Ответ: None
+2025-01-31 17:18:14 | INFO | Successfully processed request 3
+2025-01-31 17:18:14 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking) по состоянию на 2021 год. Этот рейтинг оценивает высшие учебные заведения по различным критериям, таким как научное影响已结束，继续您的问题或提供更多信息吧。根据前三句话的分析，正确答案是：\n\n```","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 1.788s
+2025-01-31 17:22:44 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:22:44 | INFO | Processing prediction request with id: 3
+2025-01-31 17:22:44 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'ANSWER: номер правильного ответа из вопроса'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:22:45 | INFO | Ответ от генератора: Информация о том, в каком рейтинге Санкт-Петербургский国立大学首字母缩写首次进入世界前400名，根据提供的选项，在2021年的数据中并未直接给出。需要具体查阅相关排名的数据以确认确切的排名名称。
+
+ANSWER: 1
+2025-01-31 17:22:45 | INFO | Пояснение: Информация о том, в каком рейтинге Санкт-Петербургский国立大学首字母缩写首次进入世界前400名，根据提供的选项，在2021年的数据中并未直接给出。需要具体查阅相关排名的数据以确认确切的排名名称。
+2025-01-31 17:22:45 | INFO | Ответ: 1
+2025-01-31 17:22:46 | INFO | Successfully processed request 3
+2025-01-31 17:22:46 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Информация о том, в каком рейтинге Санкт-Петербургский国立大学首字母缩写首次进入世界前400名，根据提供的选项，在2021年的数据中并未直接给出。需要具体查阅相关排名的数据以确认确切的排名名称。","sources":["https://news.itmo.ru/ru/university_live/ratings/news/10169/","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf","https://news.itmo.ru/ru/university_live/ratings/news/10389/"]}
+Duration: 2.042s
+2025-01-31 17:22:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:22:53 | INFO | Processing prediction request with id: 3
+2025-01-31 17:22:53 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'ANSWER: номер правильного ответа из вопроса'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:22:55 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking) в 2011 году. Этот рейтинги учитывает различные показатели, такие как число публикаций ведущих журналов и количество научных цитирований. ANSWER: 1
+2025-01-31 17:22:55 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking) в 2011 году. Этот рейтинги учитывает различные показатели, такие как число публикаций ведущих журналов и количество научных цитирований.
+2025-01-31 17:22:55 | INFO | Ответ: 1
+2025-01-31 17:22:55 | INFO | Successfully processed request 3
+2025-01-31 17:22:55 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking) в 2011 году. Этот рейтинги учитывает различные показатели, такие как число публикаций ведущих журналов и количество научных цитирований.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 1.679s
+2025-01-31 17:22:58 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:22:58 | INFO | Processing prediction request with id: 3
+2025-01-31 17:22:58 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'ANSWER: номер правильного ответа из вопроса'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:22:59 | INFO | Ответ от генератора: И Tinьгузский государственный технический университет имени Прокофия Крылова (ITMO) впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году. ANSWER: 3
+2025-01-31 17:22:59 | INFO | Пояснение: И Tinьгузский государственный технический университет имени Прокофия Крылова (ITMO) впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году.
+2025-01-31 17:22:59 | INFO | Ответ: 3
+2025-01-31 17:23:00 | INFO | Successfully processed request 3
+2025-01-31 17:23:00 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"И Tinьгузский государственный технический университет имени Прокофия Крылова (ITMO) впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 1.375s
+2025-01-31 17:23:35 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 17:23:35 | INFO | Processing prediction request with id: 1
+2025-01-31 17:23:35 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'ANSWER: номер правильного ответа из вопроса'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:23:36 | INFO | Ответ от генератора: Университет ИТМО находит главный кампус в Санкт-Петербурге.
+
+ANSWER: 2
+2025-01-31 17:23:36 | INFO | Пояснение: Университет ИТМО находит главный кампус в Санкт-Петербурге.
+2025-01-31 17:23:36 | INFO | Ответ: 2
+2025-01-31 17:23:36 | INFO | Successfully processed request 1
+2025-01-31 17:23:36 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Университет ИТМО находит главный кампус в Санкт-Петербурге.","sources":["https://itmo.ru/","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/ru/page/207/ob_universitete.htm"]}
+Duration: 1.154s
+2025-01-31 17:23:48 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Ученые ИТМО разработали сенсоры на основе наночастиц золота",
+  "id": 3
+}
+
+2025-01-31 17:23:48 | INFO | Processing prediction request with id: 3
+2025-01-31 17:23:48 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'ANSWER: номер правильного ответа из вопроса'.  Вопрос: Ученые ИТМО разработали сенсоры на основе наночастиц золота 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:23:49 | INFO | Ответ от генератора: Сенсоры, разработанные учеными ИТМО, используют наночастицы золота в своей конструкции. Это технология может быть применима в различных областях, таких как медицина или химический анализ. ANSWER: 1
+2025-01-31 17:23:49 | INFO | Пояснение: Сенсоры, разработанные учеными ИТМО, используют наночастицы золота в своей конструкции. Это технология может быть применима в различных областях, таких как медицина или химический анализ.
+2025-01-31 17:23:49 | INFO | Ответ: None
+2025-01-31 17:23:50 | INFO | Successfully processed request 3
+2025-01-31 17:23:50 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"Сенсоры, разработанные учеными ИТМО, используют наночастицы золота в своей конструкции. Это технология может быть применима в различных областях, таких как медицина или химический анализ.","sources":["https://news.itmo.ru/ru/news/14135/"]}
+Duration: 1.519s
+2025-01-31 17:24:59 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:24:59 | INFO | Processing prediction request with id: 3
+2025-01-31 17:24:59 | INFO |  Дай пояснение 1-3 предложениями. После пояснения выведи c новой стоки 'ANSWER: номер правильного ответа из вопроса'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке.  В ответе не должно быть китайский символов.
+2025-01-31 17:24:59 | INFO | Ответ от генератора: В 2011 году ИТМО впервые вошёл в топ-400 мировых университетов根据提供的信息，可以直接回答问题：
+
+ANSWER: 1
+2025-01-31 17:24:59 | INFO | Пояснение: В 2011 году ИТМО впервые вошёл в топ-400 мировых университетов根据提供的信息，可以直接回答问题：
+2025-01-31 17:24:59 | INFO | Ответ: 1
+2025-01-31 17:25:00 | INFO | Successfully processed request 3
+2025-01-31 17:25:00 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"В 2011 году ИТМО впервые вошёл в топ-400 мировых университетов根据提供的信息，可以直接回答问题：","sources":["https://news.itmo.ru/ru/university_live/ratings/news/10169/","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf","https://news.itmo.ru/ru/university_live/ratings/news/10389/"]}
+Duration: 1.293s
+2025-01-31 17:33:27 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:33:27 | INFO | Processing prediction request with id: 3
+2025-01-31 17:33:27 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 17:33:30 | INFO | Ответ от генератора: Информация указывает, что ИТМО впервые вошёл в топ-400 мировых университете по версии QS World University Rankings в 2011 году. ANSWER: 3
+2025-01-31 17:33:30 | INFO | Пояснение: Информация указывает, что ИТМО впервые вошёл в топ-400 мировых университете по версии QS World University Rankings в 2011 году.
+2025-01-31 17:33:30 | INFO | Ответ: None
+2025-01-31 17:33:32 | INFO | Successfully processed request 3
+2025-01-31 17:33:32 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"Информация указывает, что ИТМО впервые вошёл в топ-400 мировых университете по версии QS World University Rankings в 2011 году.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 4.202s
+2025-01-31 17:35:16 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:35:16 | INFO | Processing prediction request with id: 3
+2025-01-31 17:35:16 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 17:35:17 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году. При этом, в другом рейтинге — ARWU (Shanghai Ranking), ИТМО достиг this rank earlier. ANSWER: 3
+2025-01-31 17:35:17 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году. При этом, в другом рейтинге — ARWU (Shanghai Ranking), ИТМО достиг this rank earlier.
+2025-01-31 17:35:17 | INFO | Ответ: None
+2025-01-31 17:35:17 | INFO | Successfully processed request 3
+2025-01-31 17:35:17 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии QS World University Rankings в 2011 году. При этом, в другом рейтинге — ARWU (Shanghai Ranking), ИТМО достиг this rank earlier.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 1.695s
+2025-01-31 17:38:40 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:38:40 | INFO | Processing prediction request with id: 3
+2025-01-31 17:38:40 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 17:38:41 | INFO | Ответ от генератора: Информация из данного вопроса указывает, что ИТМО впервые вошёл в топ-400 мировых университетов по состоянию на 2021 год. Из предложенных вариантов верным ответом может быть только третий, так как ИТМО действительно вошёл в топ-400 QS World University Rankings в 2021 году.
+
+ANSWER: 3
+2025-01-31 17:38:41 | INFO | Пояснение: Информация из данного вопроса указывает, что ИТМО впервые вошёл в топ-400 мировых университетов по состоянию на 2021 год. Из предложенных вариантов верным ответом может быть только третий, так как ИТМО действительно вошёл в топ-400 QS World University Rankings в 2021 году.
+2025-01-31 17:38:41 | INFO | Ответ: 3
+2025-01-31 17:38:42 | INFO | Successfully processed request 3
+2025-01-31 17:38:42 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"Информация из данного вопроса указывает, что ИТМО впервые вошёл в топ-400 мировых университетов по состоянию на 2021 год. Из предложенных вариантов верным ответом может быть только третий, так как ИТМО действительно вошёл в топ-400 QS World University Rankings в 2021 году.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 2.097s
+2025-01-31 17:38:51 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 17:38:51 | INFO | Processing prediction request with id: 1
+2025-01-31 17:38:51 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 17:38:51 | INFO | Ответ от генератора: Университет ИТМО находится в городе Санкт-Петербурге.
+
+ANSWER: 2
+2025-01-31 17:38:51 | INFO | Пояснение: Университет ИТМО находится в городе Санкт-Петербурге.
+2025-01-31 17:38:51 | INFO | Ответ: 2
+2025-01-31 17:38:52 | INFO | Successfully processed request 1
+2025-01-31 17:38:52 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Университет ИТМО находится в городе Санкт-Петербурге.","sources":["https://itmo.ru/","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/ru/page/207/ob_universitete.htm"]}
+Duration: 1.237s
+2025-01-31 17:39:16 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Кто такой крокодил и топ 3 блюда из него?",
+  "id": 1
+}
+2025-01-31 17:39:16 | INFO | Processing prediction request with id: 1
+2025-01-31 17:39:16 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: Кто такой крокодил и топ 3 блюда из него? 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 17:39:17 | INFO | Ответ от генератора: Крокодил —Large reptile belonging to the family Crocodylidae, known for its powerful jaws and scaly skin. Топ-3 блюда из крокодила включают жареную мякоть крокодила, крокодилья поросль и томленое мясо крокодила с овощами.
+
+ANSWER: 2
+2025-01-31 17:39:17 | INFO | Пояснение: Крокодил —Large reptile belonging to the family Crocodylidae, known for its powerful jaws and scaly skin. Топ-3 блюда из крокодила включают жареную мякоть крокодила, крокодилья поросль и томленое мясо крокодила с овощами.
+
+ANSWER: 2
+2025-01-31 17:39:17 | INFO | Ответ: None
+2025-01-31 17:39:18 | INFO | Successfully processed request 1
+2025-01-31 17:39:18 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":null,"reasoning":"Крокодил —Large reptile belonging to the family Crocodylidae, known for its powerful jaws and scaly skin. Топ-3 блюда из крокодила включают жареную мякоть крокодила, крокодилья поросль и томленое мясо крокодила с овощами.\n\nANSWER: 2","sources":["https://irkutsk.mebelnyj-dvor.ru/product/stul-mazhor-belyy-krokodil","https://www.tripadvisor.ru/Restaurant_Review-g187399-d1041360-Reviews-Ayers_Rock-Dresden_Saxony.html","https://irkutsk.mebelnyj-dvor.ru/product/stul-mazhor-shokolad-krokodil"]}
+Duration: 1.883s
+2025-01-31 17:39:34 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Кто такой крокодил и топ 3 блюда из него?",
+  "id": 1
+}
+2025-01-31 17:39:34 | INFO | Processing prediction request with id: 1
+2025-01-31 17:39:34 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: Кто такой крокодил и топ 3 блюда из него? 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 17:39:35 | INFO | Ответ от генератора: Крокодил -大型爬行动物，属于鳄鱼目。据记载，最常见将整只鳄鱼使用的地区之一是法属圭亚那和几个东南亚国家，制作成不同的菜肴。然而，并不推荐或合法食用野生鳄鱼，通常食用的鳄鱼为养殖个体。
+
+ANSWER: 2
+2025-01-31 17:39:35 | INFO | Пояснение: Крокодил -大型爬行动物，属于鳄鱼目。据记载，最常见将整只鳄鱼使用的地区之一是法属圭亚那和几个东南亚国家，制作成不同的菜肴。然而，并不推荐或合法食用野生鳄鱼，通常食用的鳄鱼为养殖个体。
+
+ANSWER: 2
+2025-01-31 17:39:35 | INFO | Ответ: None
+2025-01-31 17:39:35 | INFO | Successfully processed request 1
+2025-01-31 17:39:35 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":null,"reasoning":"Крокодил -大型爬行动物，属于鳄鱼目。据记载，最常见将整只鳄鱼使用的地区之一是法属圭亚那和几个东南亚国家，制作成不同的菜肴。然而，并不推荐或合法食用野生鳄鱼，通常食用的鳄鱼为养殖个体。\n\nANSWER: 2","sources":["https://irkutsk.mebelnyj-dvor.ru/product/stul-mazhor-belyy-krokodil","https://www.tripadvisor.ru/Restaurant_Review-g187399-d1041360-Reviews-Ayers_Rock-Dresden_Saxony.html","https://irkutsk.mebelnyj-dvor.ru/product/stul-mazhor-shokolad-krokodil"]}
+Duration: 1.364s
+2025-01-31 17:42:52 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Кто такой крокодил и топ 3 блюда из него?",
+  "id": 1
+}
+2025-01-31 17:42:52 | INFO | Processing prediction request with id: 1
+2025-01-31 17:42:52 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: Кто такой крокодил и топ 3 блюда из него? 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 17:42:54 | INFO | Ответ от генератора: Крокодил - это大型文本，我将用简洁的三句话来解释：
+
+ crocodile — это пресноводное хищное рептилий семейства хвостаток, известное своим острым ртом с зубами и длинным хвостом. Традиционно из крокодила готовят блюда из его кожи (для обуви и аксессуаров), но в меню ресторанов обычно можно найти бульон из крокодильих хвостов, мясо крокодила по-кавказски и суп-пюре из мяса крокodила.
+
+ANSWER: 2
+2025-01-31 17:42:54 | INFO | Пояснение: Крокодил - это大型文本，我将用简洁的三句话来解释：
+
+ crocodile — это пресноводное хищное рептилий семейства хвостаток, известное своим острым ртом с зубами и длинным хвостом. Традиционно из крокодила готовят блюда из его кожи (для обуви и аксессуаров), но в меню ресторанов обычно можно найти бульон из крокодильих хвостов, мясо крокодила по-кавказски и суп-пюре из мяса крокodила.
+2025-01-31 17:42:54 | INFO | Ответ: None
+2025-01-31 17:42:55 | INFO | Successfully processed request 1
+2025-01-31 17:42:55 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":null,"reasoning":"Крокодил - это大型文本，我将用简洁的三句话来解释：\n\n crocodile — это пресноводное хищное рептилий семейства хвостаток, известное своим острым ртом с зубами и длинным хвостом. Традиционно из крокодила готовят блюда из его кожи (для обуви и аксессуаров), но в меню ресторанов обычно можно найти бульон из крокодильих хвостов, мясо крокодила по-кавказски и суп-пюре из мяса крокodила.","sources":["https://prosushi.ru/menu/krasnodar-tuapse/kombo-krokodil","https://irkutsk.mebelnyj-dvor.ru/product/stul-mazhor-belyy-krokodil","https://pikabu.ru/tag/%D0%95%D0%B4%D0%B0,%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%D1%8B/best?page=3"]}
+Duration: 2.745s
+2025-01-31 17:43:00 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 17:43:00 | INFO | Processing prediction request with id: 3
+2025-01-31 17:43:00 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 17:43:01 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2016 году. Этот успех произошел после многолетней работы и развитia института. ANSWER: 2
+2025-01-31 17:43:01 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2016 году. Этот успех произошел после многолетней работы и развитia института.
+2025-01-31 17:43:01 | INFO | Ответ: 2
+2025-01-31 17:43:02 | INFO | Successfully processed request 3
+2025-01-31 17:43:02 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings в 2016 году. Этот успех произошел после многолетней работы и развитia института.","sources":["https://news.itmo.ru/ru/university_live/ratings/news/10169/","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf","https://news.itmo.ru/ru/university_live/ratings/news/10389/"]}
+Duration: 1.512s
+2025-01-31 17:44:44 | INFO | Incoming request: GET http://localhost:8080/api/request/
+Request body: 
+2025-01-31 17:44:44 | INFO | Request completed: GET http://localhost:8080/api/request/
+Status: 307
+Response body: 
+Duration: 0.001s
+2025-01-31 17:44:44 | INFO | Incoming request: GET http://localhost:8080/api/request
+Request body: 
+2025-01-31 17:44:44 | INFO | Request completed: GET http://localhost:8080/api/request
+Status: 405
+Response body: {"detail":"Method Not Allowed"}
+Duration: 0.001s
+2025-01-31 17:44:44 | INFO | Incoming request: GET http://localhost:8080/favicon.ico
+Request body: 
+2025-01-31 17:44:44 | INFO | Request completed: GET http://localhost:8080/favicon.ico
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.001s
+2025-01-31 18:01:17 | INFO | Incoming request: GET http://localhost:8080/favicon.ico
+Request body: 
+2025-01-31 18:01:17 | INFO | Request completed: GET http://localhost:8080/favicon.ico
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.001s
+2025-01-31 18:02:14 | INFO | Incoming request: GET http://localhost:8080/api/request
+Request body: 
+2025-01-31 18:02:14 | INFO | Request completed: GET http://localhost:8080/api/request
+Status: 405
+Response body: {"detail":"Method Not Allowed"}
+Duration: 0.001s
+2025-01-31 18:03:15 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: 
+2025-01-31 18:03:15 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 422
+Response body: {"detail":[{"type":"missing","loc":["body"],"msg":"Field required","input":null}]}
+Duration: 0.002s
+2025-01-31 18:03:24 | INFO | Incoming request: GET http://localhost:8080/api/request
+Request body: 
+2025-01-31 18:03:24 | INFO | Request completed: GET http://localhost:8080/api/request
+Status: 405
+Response body: {"detail":"Method Not Allowed"}
+Duration: 0.001s
+2025-01-31 18:07:38 | INFO | Incoming request: POST http://localhost:9000/api/request
+Request body: 
+2025-01-31 18:07:38 | INFO | Request completed: POST http://localhost:9000/api/request
+Status: 422
+Response body: {"detail":[{"type":"missing","loc":["body"],"msg":"Field required","input":null}]}
+Duration: 0.002s
+2025-01-31 18:07:49 | INFO | Incoming request: GET http://localhost:9000/
+Request body: 
+2025-01-31 18:07:49 | INFO | Request completed: GET http://localhost:9000/
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.002s
+2025-01-31 18:07:49 | INFO | Incoming request: GET http://localhost:9000/favicon.ico
+Request body: 
+2025-01-31 18:07:49 | INFO | Request completed: GET http://localhost:9000/favicon.ico
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.001s
+2025-01-31 18:11:30 | INFO | Incoming request: GET http://89.179.122.191:9000/api/request
+Request body: 
+2025-01-31 18:11:30 | INFO | Request completed: GET http://89.179.122.191:9000/api/request
+Status: 405
+Response body: {"detail":"Method Not Allowed"}
+Duration: 0.002s
+2025-01-31 18:11:31 | INFO | Incoming request: GET http://89.179.122.191:9000/favicon.ico
+Request body: 
+2025-01-31 18:11:31 | INFO | Request completed: GET http://89.179.122.191:9000/favicon.ico
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.001s
+2025-01-31 18:12:00 | INFO | Incoming request: GET http://89.179.122.191:9000/api/request
+Request body: 
+2025-01-31 18:12:00 | INFO | Request completed: GET http://89.179.122.191:9000/api/request
+Status: 405
+Response body: {"detail":"Method Not Allowed"}
+Duration: 0.001s
+2025-01-31 18:12:00 | INFO | Incoming request: GET http://89.179.122.191:9000/favicon.ico
+Request body: 
+2025-01-31 18:12:00 | INFO | Request completed: GET http://89.179.122.191:9000/favicon.ico
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.001s
+2025-01-31 18:12:21 | INFO | Incoming request: POST http://89.179.122.191:9000/api/request
+Request body: 
+2025-01-31 18:12:21 | INFO | Request completed: POST http://89.179.122.191:9000/api/request
+Status: 422
+Response body: {"detail":[{"type":"missing","loc":["body"],"msg":"Field required","input":null}]}
+Duration: 0.002s
+2025-01-31 18:12:22 | INFO | Incoming request: POST http://89.179.122.191:9000/api/request
+Request body: 
+2025-01-31 18:12:22 | INFO | Request completed: POST http://89.179.122.191:9000/api/request
+Status: 422
+Response body: {"detail":[{"type":"missing","loc":["body"],"msg":"Field required","input":null}]}
+Duration: 0.001s
+2025-01-31 18:12:23 | INFO | Incoming request: POST http://89.179.122.191:9000/api/request
+Request body: 
+2025-01-31 18:12:23 | INFO | Request completed: POST http://89.179.122.191:9000/api/request
+Status: 422
+Response body: {"detail":[{"type":"missing","loc":["body"],"msg":"Field required","input":null}]}
+Duration: 0.001s
+2025-01-31 18:12:48 | INFO | Incoming request: POST http://89.179.122.191:9000/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 18:12:48 | INFO | Processing prediction request with id: 3
+2025-01-31 18:12:48 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. ARWU (Shanghai Ranking)
+2. Times Higher Education (THE) World University Rankings
+3. QS World University Rankings
+4. U.S. News & World Report Best Global Universities 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 18:12:52 | INFO | Ответ от генератора: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) после 2010 года. Этот рейтинг оценивает университеты на основе различных показателей, включая публикации науки, личного влияния ученых и цитирование научных статей. ANSWER: 1
+2025-01-31 18:12:52 | INFO | Пояснение: ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) после 2010 года. Этот рейтинг оценивает университеты на основе различных показателей, включая публикации науки, личного влияния ученых и цитирование научных статей.
+2025-01-31 18:12:52 | INFO | Ответ: 1
+2025-01-31 18:12:52 | INFO | Successfully processed request 3
+2025-01-31 18:12:52 | INFO | Request completed: POST http://89.179.122.191:9000/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов по версии ARWU (Shanghai Ranking) после 2010 года. Этот рейтинг оценивает университеты на основе различных показателей, включая публикации науки, личного влияния ученых и цитирование научных статей.","sources":["https://edu.itmo.ru/files/769","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/file/pages/93/Otchet_o_samoobsledovanii_2020.pdf"]}
+Duration: 4.429s
+2025-01-31 18:12:59 | INFO | Incoming request: GET http://89.179.122.191:9000/api/request
+Request body: 
+2025-01-31 18:12:59 | INFO | Request completed: GET http://89.179.122.191:9000/api/request
+Status: 405
+Response body: {"detail":"Method Not Allowed"}
+Duration: 0.001s
+2025-01-31 18:12:59 | INFO | Incoming request: GET http://89.179.122.191:9000/favicon.ico
+Request body: 
+2025-01-31 18:12:59 | INFO | Request completed: GET http://89.179.122.191:9000/favicon.ico
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.001s
+2025-01-31 18:13:06 | INFO | Incoming request: POST http://89.179.122.191:9000/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 18:13:06 | INFO | Processing prediction request with id: 1
+2025-01-31 18:13:06 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 18:13:06 | INFO | Ответ от генератора: Университет ИТМО имеет основной кампус в Санкт-Петербурге.
+
+ANSWER: 2
+2025-01-31 18:13:06 | INFO | Пояснение: Университет ИТМО имеет основной кампус в Санкт-Петербурге.
+2025-01-31 18:13:06 | INFO | Ответ: 2
+2025-01-31 18:13:07 | INFO | Successfully processed request 1
+2025-01-31 18:13:07 | INFO | Request completed: POST http://89.179.122.191:9000/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Университет ИТМО имеет основной кампус в Санкт-Петербурге.","sources":["https://itmo.ru/","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/ru/page/207/ob_universitete.htm"]}
+Duration: 1.003s
+2025-01-31 18:13:09 | INFO | Incoming request: GET http://89.179.122.191:9000/api/request
+Request body: 
+2025-01-31 18:13:09 | INFO | Request completed: GET http://89.179.122.191:9000/api/request
+Status: 405
+Response body: {"detail":"Method Not Allowed"}
+Duration: 0.001s
+2025-01-31 18:13:09 | INFO | Incoming request: GET http://89.179.122.191:9000/favicon.ico
+Request body: 
+2025-01-31 18:13:09 | INFO | Request completed: GET http://89.179.122.191:9000/favicon.ico
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.001s
+2025-01-31 19:02:11 | INFO | Incoming request: POST http://89.179.122.191:9000/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:02:11 | INFO | Processing prediction request with id: 1
+2025-01-31 19:02:11 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: В каком городе находится главный кампус Университета ИТМО?
+1. Москва
+2. Санкт-Петербург
+3. Екатеринбург
+4. Нижний Новгород 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 19:02:12 | INFO | Ответ от генератора: Университет ИТМО находится в Санкт-Петербурге.
+
+ANSWER: 2
+2025-01-31 19:02:12 | INFO | Пояснение: Университет ИТМО находится в Санкт-Петербурге.
+2025-01-31 19:02:12 | INFO | Ответ: 2
+2025-01-31 19:02:13 | INFO | Successfully processed request 1
+2025-01-31 19:02:13 | INFO | Request completed: POST http://89.179.122.191:9000/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Университет ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/ru/page/207/ob_universitete.htm"]}
+Duration: 1.362s
+2025-01-31 19:02:41 | INFO | Incoming request: POST http://89.179.122.191:9000/api/request
+Request body: {
+  "query": "как какать?",
+  "id": 1
+}
+2025-01-31 19:02:41 | INFO | Processing prediction request with id: 1
+2025-01-31 19:02:41 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: как какать? 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 19:02:41 | INFO | Ответ от генератора: Вопрос有些不恰当，但我会尽量解释。排便是一种自然生理过程，通常在感到需要时通过肠道将废物排出体外。保持良好的饮食习惯和水分摄入有助于这一过程顺畅进行。
+
+ANSWER: 1
+2025-01-31 19:02:41 | INFO | Пояснение: Вопрос有些不恰当，但我会尽量解释。排便是一种自然生理过程，通常在感到需要时通过肠道将废物排出体外。保持良好的饮食习惯和水分摄入有助于这一过程顺畅进行。
+2025-01-31 19:02:41 | INFO | Ответ: None
+2025-01-31 19:02:42 | INFO | Successfully processed request 1
+2025-01-31 19:02:42 | INFO | Request completed: POST http://89.179.122.191:9000/api/request
+Status: 200
+Response body: {"id":1,"answer":null,"reasoning":"Вопрос有些不恰当，但我会尽量解释。排便是一种自然生理过程，通常在感到需要时通过肠道将废物排出体外。保持良好的饮食习惯和水分摄入有助于这一过程顺畅进行。","sources":["https://journal.tinkoff.ru/a-kak-kakat/","https://open.spotify.com/album/0FoL3clfcJ4dYtXXlt8xSk","https://www.ozon.ru/category/kniga-kak-pravilno-kakat/"]}
+Duration: 1.331s
+2025-01-31 20:31:14 | INFO | Incoming request: POST http://89.179.122.191:9000/api/request
+Request body: {
+  "query": "как какать?",
+  "id": 1
+}
+2025-01-31 20:31:14 | INFO | Processing prediction request with id: 1
+2025-01-31 20:31:14 | INFO |  Дай пояснение 1-3 предложениями. После выведи 'ANSWER: номер правильного ответа'.  Вопрос: как какать? 
+ Ответь на русской языке. В ответе не должно быть китайский символов.
+2025-01-31 20:31:15 | ERROR | Internal error processing request 1: Connection error.
+2025-01-31 20:31:15 | INFO | Request completed: POST http://89.179.122.191:9000/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 1.165s
