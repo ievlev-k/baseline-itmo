@@ -5,3 +5,4 @@ uvicorn
 gunicorn
 openai
 requests
+python-dotenv==1.0.0

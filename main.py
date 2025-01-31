@@ -7,7 +7,8 @@ from pydantic import HttpUrl
 from schemas.request import PredictionRequest, PredictionResponse
 from utils.logger import setup_logger
 import requests
-
+import os
+from dotenv import load_dotenv, find_dotenv
 # Initialize
 app = FastAPI()
 logger = None
@@ -17,9 +18,10 @@ client = OpenAI(
     api_key='ollama',
 )
 
-google_key = "AIzaSyCfQYsU-zo66jgQBGQ1zVH1jgGu-t1Zazc"
-cx_key = "c3e1668e298894ab0"
 
+load_dotenv(find_dotenv())
+google_key = os.getenv('GOOGLE_TOKEN')
+cx_key = os.getenv('CS_KEY')
 
 @app.on_event("startup")
 async def startup_event():
