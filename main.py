@@ -9,6 +9,7 @@ from utils.logger import setup_logger
 import requests
 import os
 from dotenv import load_dotenv, find_dotenv
+
 # Initialize
 app = FastAPI()
 logger = None
@@ -18,10 +19,10 @@ client = OpenAI(
     api_key='ollama',
 )
 
-
 load_dotenv(find_dotenv())
 google_key = os.getenv('GOOGLE_TOKEN')
 cx_key = os.getenv('CS_KEY')
+
 
 @app.on_event("startup")
 async def startup_event():
@@ -72,7 +73,6 @@ async def predict(body: PredictionRequest):
                    f" Ответь на русской языке. В ответе не должно быть китайский символов."
                    )
 
-
         query = body.query.splitlines()[0]
 
         if len(body.query.splitlines()) > 1:
@@ -87,7 +87,6 @@ async def predict(body: PredictionRequest):
         await logger.info(f"Ответ: {answer_num}")
 
         sources = get_links(query, is_ans_choose)
-
 
         response = PredictionResponse(
             id=body.id,
@@ -124,11 +123,11 @@ def get_answer(req, is_ans_choose):
     return answer_text.strip(), answer_num
 
 
-
 def get_links(query, is_ans_choose):
     url = f'https://www.googleapis.com/customsearch/v1?q={query}&key={google_key}&cx={cx_key}&num=10'
     response = requests.get(url)
     data = response.json()
+    current_sources: List[HttpUrl] = []
     for item in data.get('items', []):
         cur_link = item['link']
         if "news.itmo.ru" in cur_link and "news" in cur_link and not is_ans_choose:
@@ -136,10 +135,9 @@ def get_links(query, is_ans_choose):
                 HttpUrl(cur_link),
             ]
             return current_sources
+        else:
+            current_sources.append(HttpUrl(cur_link))
+            if len(current_sources) == 3:
+                return current_sources
 
-    current_sources: List[HttpUrl] = [
-        HttpUrl(data.get('items', [])[0]['link']),
-        HttpUrl(data.get('items', [])[1]['link']),
-        HttpUrl(data.get('items', [])[2]['link']),
-    ]
     return current_sources
